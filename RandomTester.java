@@ -59,7 +59,6 @@ public class RandomTester
         return rand.nextInt(6) + 1;  // Generates a number between 1 and 6
     }
     
-    // Method to return a random response: "yes", "no", or "maybe"
     /**
      * Q17
      * Q18
@@ -70,10 +69,9 @@ public class RandomTester
         responses.add("maybe");
         responses.add("always");
         responses.add("never");
-        // You can add as many responses as you like here
 
         Random rand = new Random();
-        int randomIndex = rand.nextInt(responses.size());  // Generates a random index from 0 to the size of the list - 1
+        int randomIndex = rand.nextInt(responses.size());
 
         return responses.get(randomIndex);
     }
@@ -91,7 +89,7 @@ public class RandomTester
      * Q20
      */
     public int generateRandomInRange(int max) {
-        return generateRandomInRange(1, max);  // Calls the new method with min = 1
+        return generateRandomInRange(1, max);
     }
 }
 

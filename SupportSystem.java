@@ -30,7 +30,12 @@ import java.util.Random;
  * Q15: nextInt(int bound), when calling nextInt(100)  the numbers generated will be any number 0 to 99
  * Q21: you can use it as instead of the random class however its said its better for cryptography.
  * random numbers are important for cryptographic security to ensure strong unpredictable keys to protect
- * against cyber attacks and hackings.
+ * against cyber attacks and hackings
+ * Q23: yes it will work beacause it is in the size limit of the responses list
+ * Q24: its a data structure that stores info in pairs of keys and values
+ * Q25: get remove put containsKey containsValue replace, yes the same type
+ * could be used for both parameters
+ * 
  */
 public class SupportSystem
 {
